@@ -8,7 +8,7 @@ Script is just loose thing that came to my mind during reading [Practical Malwar
 ## Running
 
 ### Update-PETimestamp
-This function scans directories to identify folders excluded from Windows Defender scans.
+This function scans modifies timestamp in NT_HEADERS of PE files.
 
 #### Parameters
 - **File (Mandatory)**: The PE file that will have data modified.
