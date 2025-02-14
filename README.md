@@ -1,7 +1,7 @@
 # Update-PETimestamp.ps1
 
 ## Overview
-`UpdatePETimestamp.ps1` is a PowerShell script designed to modify IMAGE_NT_HEADERS -> IMAGE_FILE_HEADER -> Time Data Stamp inside PE files. Some EDR 
+`UpdatePETimestamp.ps1` is a PowerShell script designed to modify IMAGE_NT_HEADERS -> IMAGE_FILE_HEADER -> Time Data Stamp inside PE files.
 
 Script is just loose thing that came to my mind during reading [Practical Malware Analysis - The Hands On Guide to Dissecting Malicious Software](https://www.amazon.com/Practical-Malware-Analysis-Hands-Dissecting/dp/1593272901)
 
