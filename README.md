@@ -20,7 +20,6 @@ First import module into current session.
 `Import-Module .\UpdatePETimestamp.ps1`
 
 This example sets the timestmap of `lab-modified.exe` file to `5/14/2014 8:40:00 PM` - `1400100000` epoch time
-
 `Update-PETimestamp -File .\lab-modified.exe -NewTimestamp 1400100000`
 
 ## Output
@@ -31,6 +30,13 @@ Sample output:
     [*] Original TimeStamp: 1300100000 - 3/14/2011 10:53:20 AM
     [*] Updating TimeStamp to: 1400100000 - 5/14/2014 8:40:00 PM
     [+] Successfully updated the PE timestamp!
+
+## Screenshots
+Using PEview
+Before:
+![Alt text](/before-update.png?raw=true "Before Update")
+After:
+![Alt text](/after-update.png?raw=true "After Update")
 
 ## Requirements
 - PowerShell
